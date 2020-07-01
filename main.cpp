@@ -1,14 +1,15 @@
 #include <iostream>
+#include "chess.h"
 
 using namespace std;
 
 
 int main(int argc, char * argv[]){
+	table * t;
 
+	t = new table();
 
-
-
-	cout << "futuro jogador de xadrez =D\n";
+	t->print();
 
 
 	return 0;
